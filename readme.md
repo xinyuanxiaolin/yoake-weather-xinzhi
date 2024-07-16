@@ -6,6 +6,6 @@
 
 使用方法：
 
-1.先在koishi的操作界面配置好从心知天气获取到的私钥(https://www.seniverse.com/)，然后运行即可。
+1.先在koishi的操作界面配置好从心知天气获取到的私钥``https://www.seniverse.com``，然后运行即可。
 
 2.指令：weather 城市名
