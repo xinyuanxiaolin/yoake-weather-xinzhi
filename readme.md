@@ -8,4 +8,12 @@
 
 1.先在koishi的操作界面配置好从心知天气获取到的私钥``(地址：https://www.seniverse.com)``，然后运行即可。
 
-2.指令：weather 城市名
+2.指令：
+
+```txt
+查询今天天气情况
+weather 城市名
+查询城市近3天天气情况
+weather-forecast 城市名 
+
+```
