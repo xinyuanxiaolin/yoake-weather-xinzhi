@@ -47,7 +47,7 @@ export function apply(ctx: Context, config: Config) {
           return `日期: ${day.date}，白天气温: ${day.high}℃，夜间气温: ${day.low}℃，天气: ${day.text_day}，风速: ${day.wind_speed} km/h`
         }).join('\n')
 
-        return `未来3天的天气：\n${forecastList}`
+        return `未来3-5天内的天气：\n${forecastList}`
 
       } catch (e) {
         if (e.response?.status == 404) {
